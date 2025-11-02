@@ -1,0 +1,16 @@
+# Nmap 7.80 scan initiated Fri Jun  7 23:08:34 2024 as: nmap -sC -sV -oN nmap/initial 10.10.130.112
+Nmap scan report for 10.10.130.112
+Host is up (0.081s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 4a:47:7b:bc:8f:4d:97:74:0c:1f:1b:91:1a:91:a2:e6 (RSA)
+|_  256 74:ec:1e:7d:8e:71:f3:22:55:04:f5:3e:5d:a1:42:10 (ECDSA)
+80/tcp open  http    Node.js Express framework
+| http-title: Hydra Challenge
+|_Requested resource was /login
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jun  7 23:08:48 2024 -- 1 IP address (1 host up) scanned in 14.46 seconds
